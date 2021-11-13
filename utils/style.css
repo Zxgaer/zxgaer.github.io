@@ -1,0 +1,162 @@
+@font-face {
+	font-family: icomoon;
+	src: url("data:application/font-woff;base64,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");
+}
+
+* {
+	outline: none;
+}
+
+::selection {
+	background-color: rgba(147, 107, 255, 0.286);
+}
+
+::-moz-selection {
+	background-color: rgba(147, 107, 255, 0.286);
+}
+
+body {
+	text-align: center;
+	background-color: #f1eff6;
+}
+
+a {
+	text-decoration: none;
+	color: #f00;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+a:hover,
+input[type="checkbox"]+label:hover,
+input[type="radio"]+label:hover {
+	background-color: rgba(60, 251, 76, 0.286);
+}
+
+a:active {
+	background-color: rgba(25, 240, 43, 0.427);
+}
+
+button,
+input[type="button"],
+input[type="file"]+label {
+	background-color: #4ca951;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	font-size: 0.9em;
+	padding: 0.1em 0.6em;
+	margin: 0.1em;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="file"]+label:hover {
+	background-color: #57d15d;
+}
+
+button:active,
+input[type="button"]:active,
+input[type="file"]+label:active {
+	background-color: #37723a;
+}
+
+button,
+label,
+input[type="button"] {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+input[type="checkbox"],
+input[type="file"],
+input[type="radio"],
+.hide {
+	display: none;
+}
+
+input[type="checkbox"]+label::before {
+	font: 0.9em icomoon;
+	content: "\ea53";
+	margin-left: 0.4em;
+	margin-right: 0.2em;
+}
+
+input[type="checkbox"]:checked+label::before {
+	font: 0.9em icomoon;
+	content: "\ea52";
+	margin-left: 0.4em;
+	margin-right: 0.2em;
+}
+
+input[type="radio"]+label::before {
+	font: 0.9em icomoon;
+	content: "\ea56";
+	margin-left: 0.4em;
+	margin-right: 0.2em;
+}
+
+input[type="radio"]:checked+label::before {
+	font: 0.9em icomoon;
+	content: "\ea54";
+	margin-left: 0.4em;
+	margin-right: 0.2em;
+}
+
+textarea,
+input[type="text"] {
+	border: 1px solid #888;
+	border-radius: 2px;
+	padding: 0.2em;
+	margin: 1px;
+}
+
+.main {
+	display: none;
+}
+
+.title {
+	color: #00f;
+}
+
+.info,
+strong.error {
+	color: #f00;
+}
+
+strong.warning {
+	color: #fa0;
+}
+
+strong.accept {
+	color: #080;
+}
+
+.index {
+	width: 60vw;
+	max-width: 270px;
+	margin: auto;
+}
+
+.index a {
+	display: block;
+	border: 2px solid #37723a;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.profile {
+	font-size: 13.33px;
+	line-height: 1.5;
+}
+
+.disabled {
+	opacity: 0.2;
+	pointer-events: none;
+}
+
+.fade {
+	opacity: 0;
+	visibility: hidden;
+}
