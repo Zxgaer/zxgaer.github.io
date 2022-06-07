@@ -13,11 +13,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 92vh;
+    min-height: 40vh;
 }
 
 .top{
-    width: 100%;
     height: 8%;
     background: rgba(145, 188, 207, 0.2);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -30,14 +29,14 @@
 .top ul{
     display: flex;
     align-items: center;
-    width: 100%;
     list-style-type: none;
     white-space:nowrap;
     overflow: hidden;
     border-radius: 15px;
+    padding-inline-start:10px;
 }
 .top li {
-    width: 10%;
+    width: 17%;
     float:left;
     margin-right:2%;
     overflow: hidden;
@@ -48,14 +47,28 @@
     display: block;
     color:white;
     text-align: center;
-    padding: 3px;
-    overflow: hidden;
     text-decoration: none;
 }
 
-.top li a:hover{
-    background-color: rgb(169, 182, 207);
+.top li:nth-child(1) {
+    float:none;
+    overflow: visible;
+    height: 20%;
+    width: 15%;
+    margin-right:0%;
 }
+
+.top li:nth-child(5), .top li:nth-child(6) {
+    float:none;
+    width: 30%;
+    margin-right:0%;
+}
+.top li a:hover{
+    background-color: rgb(89, 214, 197);
+}
+
+
+
 .phone-set {
     display: none;
 }
@@ -64,4 +77,10 @@
 }
 .buttongit {
     display: none;
+}
+
+#com-font {
+    position:absolute;
+    height: 0.1rem;
+    color: #fff;
 }

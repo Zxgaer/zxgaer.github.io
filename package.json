@@ -1,0 +1,24 @@
+{
+  "name": "thepage",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+"docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "Zxgaer",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zxgaer/zxgaer.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zxgaer/zxgaer.github.io/issues"
+  },
+  "homepage": "https://github.com/Zxgaer/zxgaer.github.io#readme"
+}

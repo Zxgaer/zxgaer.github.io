@@ -1,0 +1,4 @@
+.btn{padding:15px 40px;border:2px solid #fff;border-radius:30px;text-decoration:none;color:#fff;transition:all .3s}
+.btn:hover{background-color:#fff;color:#333}
+.btn:active{transform:scale(.98)}
+.btn:nth-child(1){margin-right:20px}.board .right-pic{position:absolute;user-select:none;right:15%}

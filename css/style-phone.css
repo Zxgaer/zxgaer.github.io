@@ -13,7 +13,7 @@
     flex-direction: column;
     justify-content: center;
 
-    min-height: 95vh;
+    min-height: 80vh;
 }
 
 .top{
@@ -39,7 +39,7 @@
     font-size: 700%;
     color:#fff;
 }
-.com-font {
+#com-font {
     display: none;
 }
 
@@ -48,8 +48,10 @@
     min-height: 100%;
     border-width: 6px;
     border-color: #fff;
-    border-radius: 20px;
-    background: rgb(47, 79, 79, 0);
+    background: rgb(0,0,0, 0);
     color: white;
     font-size: 63px;
+    padding:15px 40px;
+    border:2px solid #fff;
+    border-radius:30px;
  }
