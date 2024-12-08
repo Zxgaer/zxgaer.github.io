@@ -9,6 +9,15 @@ export default defineUserConfig({
   theme,
   head: [
     ["link", { rel: "preconnect", href: "https://static.zeoseven.com" }],
+    ["link", { rel: "preconnect", href: "https://fonts.loli.net" }],
+    ["link", { rel: "preconnect", href: "https://gstatic.loli.net", crossorigin: "" }],
+    [
+      "link",
+      {
+        href: "https://fonts.loli.net/css2?family=JetBrains+Mono&display=swap",
+        rel: "stylesheet",
+      },
+    ],
     [
       "link",
       {
