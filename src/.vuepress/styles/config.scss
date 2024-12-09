@@ -4,22 +4,19 @@ $theme-color: #c24bf5;
 $vp-font: '"LXGW WenKai", cursive,Georgia, -apple-system, "Nimbus Roman No9 L", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "WenQuanYi Micro Hei"';
 $vp-font-heading: '"LXGW WenKai", cursive';
 $vp-font-mono: '"JetBrains Mono", monospace';
-.theme-hope-content pre code {
+code {
   font-family: var(--vp-font-mono);
 }
 body,h1,h2,h3,h4,h5,a {
   font-family: var(--vp-font);
 }
-.vp-blog-hero .vp-blogger-info .vp-article-title {
+.vp-blog-hero,.vp-blogger-info,.vp-article-title {
   font-family: var(--vp-font);
 }
-.vp-navbar .vp-nav-links {
+.vp-navbar,.vp-nav-links {
   font-size: 1rem;
 }
-.vp-blogger-info {
-  font-family: var(--vp-font);
-}
-.vp-blog-hero.fullscreen .vp-blog-mask {
+.vp-blog-hero.fullscreen,.vp-blog-mask {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: top;
