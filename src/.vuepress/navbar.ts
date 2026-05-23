@@ -17,7 +17,7 @@ export default navbar([
     link: "/timeline/",
   },
   {
-    text: "关于",
+    text: "关于我",
     icon: "ic:sharp-account-circle",
     link: "/Introduce.html",
   },

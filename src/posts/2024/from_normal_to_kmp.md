@@ -2,7 +2,6 @@
 title: 从暴力枚举到KMP算法
 description: 从暴力枚举到KMP算法
 tag:
-  - KMP
   - 算法
   - 字符串
 date: 2024-07-19

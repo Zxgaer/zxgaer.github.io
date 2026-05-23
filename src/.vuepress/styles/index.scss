@@ -1,9 +1,144 @@
-$theme-color: #c24bf5;
-$vp-font: '"LXGW WenKai", cursive,Georgia, -apple-system, "Nimbus Roman No9 L", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "WenQuanYi Micro Hei"';
-$vp-font-heading: '"LXGW WenKai", cursive';
+$theme-color: #563265;
 $vp-font-mono: '"JetBrains Mono", monospace';
+
+@font-face {
+  font-family: "LXGW WenKai Smart";
+
+  src:
+    local("LXGW WenKai"),
+    local("LXGW WenKai Regular"),
+
+    url("https://zxgaer-blog.cn-nb1.rains3.com/LXGWWenKaiLite-Regular.ttf")
+    format("ttf");
+
+  font-display: swap;
+}
+@font-face {
+  font-family: "Noto Serif Fallback";
+
+  src:
+    url("https://zxgaer-blog.cn-nb1.rains3.com/NotoSerifSC-Regular.ttf")
+    format("ttf");
+
+  font-display: swap;
+}
+
+.hero-title {
+  font-family:
+    "Noto Serif SC",
+    "Noto Serif CJK SC",
+    "Noto Serif",
+    "Noto Serif Fallback",
+    "Source Han Serif SC",
+    "Songti SC",
+    "STSong",
+    "SimSun",
+    serif;
+  margin-top: -8px;
+  font-size:
+    clamp(1.2rem, 5vw, 2rem);
+  line-height: 1.15;
+  letter-spacing: .02em;
+  background:
+    linear-gradient(
+      135deg,
+      #f4d6ff 0%,
+      #d6b8ff 22%,
+      #9d8cff 50%,
+      #6e9cff 75%,
+      #a6d0ff 100%
+    );
+
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+.hero-quote {
+  font-family:
+    "LXGW Wenkai",
+    sans-serif;
+  font-size:
+    clamp(0.6rem, 5vw, 1.3rem);
+}
+.home .vp-hero-image {
+  width: 170px !important;
+  height: 170px !important;
+
+  transform: translateY(-32px);
+
+  border-radius: 50%;
+
+  border: 4px solid rgba(160,90,255,.7);
+
+  box-shadow:
+    0 0 25px rgba(160,90,255,.8),
+    0 0 60px rgba(160,90,255,.45);
+
+  transition: .3s ease;
+}
 .vp-nav-links {
     display: flex;
     align-items: center;
     font-size: 1rem;
+}
+.vp-blog-mask {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background-position: center !important;
+}
+.blog-page-wrapper {
+  position: relative;
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  background: rgba(15, 15, 20, 0.65);
+}
+
+.vp-blog-hero {
+  background-image: var(--hero-bg);
+}
+
+
+/* Hero 头像 */
+.vp-blog-hero-image {
+  width: 160px !important;
+  height: 160px !important;
+
+  border-radius: 50%;
+
+  /* 白边 */
+  border: 2px solid rgba(255,255,255,.8);
+
+  /* 外发光 */
+  box-shadow:
+    0 0 20px rgba(180,120,255,.35),
+    0 0 50px rgba(180,120,255,.2);
+
+  transition: all .3s ease;
+}
+
+/* 悬停动画 */
+.vp-blog-hero-image:hover {
+  transform: scale(1.03);
+}
+
+.hero-divider {
+  width: 70%;
+  height: 1px;
+
+  margin: 14px 0;
+
+  background:
+    linear-gradient(
+      to right,
+      transparent,
+      rgba(255,255,255,.45),
+      transparent
+    );
+
+  opacity: .9;
 }
