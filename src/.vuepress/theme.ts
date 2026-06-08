@@ -35,7 +35,7 @@ export default hopeTheme({
     },
     plugins: {
         blog: {
-            excerptLength:30
+            excerptLength:20
         },
         icon: {
             //"iconify", "fontawesome", "fontawesome-with-brands"

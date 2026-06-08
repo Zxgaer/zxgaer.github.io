@@ -13,8 +13,7 @@ const quotes = [
     "Stay hungry, stay foolish.",
     "The quieter you become, the more you can hear.",
     "天接云涛连晓雾, 星河欲转千帆舞",
-    "醉后不知天在水，满船清梦压星河",
-    "可是世界又不是围着我转，有点烦心事不是很正常吗......"
+    "醉后不知天在水，满船清梦压星河"
 ]
 
 const quoteRef = ref<HTMLElement>()
