@@ -39,8 +39,6 @@ function updateBackground() {
         `url(${currentBg.value}) center / cover`
 }
 
-// ===== 打字机格言 =====
-
 function initTyped() {
     if (!quoteRef.value) return
 
@@ -79,7 +77,7 @@ watch(isDark, () => {
 
                 <div class="hero-divider"></div>
                 <!-- 标题 -->
-                <h1 class="hero-title">猫璃琉霜 Neliko Zxgaer</h1>
+                <h1 class="hero-title">猫璃琉霜 | Neliko Zxgaer</h1>
                 <h3 class="hero-quote"><span ref="quoteRef"></span></h3>
 
                 <div class="hero-divider"></div>
@@ -92,16 +90,17 @@ watch(isDark, () => {
                         <Icon icon="simple-icons:bilibili" class="social-icon" />
                     </a>
 
-                    <a href="https://github.com/Zxgaer?tab=followers" target="_blank" rel="noopener noreferrer" aria-label="Github">
+                    <a href="https://github.com/Zxgaer" target="_blank" rel="noopener noreferrer" aria-label="Github">
                         <Icon icon="mdi:github" class="social-icon" />
-                    </a>
-
-                    <a href="https://www.youtube.com/@Ergxza" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                        <Icon icon="mdi:youtube" class="social-icon" />
                     </a>
 
                     <a href="https://x.com/Zxgaer16971" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                         <Icon icon="ri:twitter-x-fill" class="social-icon" />
+                    </a>
+
+                    <a href="https://steamcommunity.com/id/zxgaer/" target="_blank" rel="noopener noreferrer"
+                        aria-label="Steam">
+                        <Icon icon="mdi:steam" class="social-icon" />
                     </a>
 
                     <a href="https://discordapp.com/users/1136217074633560114" target="_blank" rel="noopener noreferrer" aria-label="Discord">
@@ -112,9 +111,8 @@ watch(isDark, () => {
                         <Icon icon="mdi:twitch" class="social-icon" />
                     </a>
 
-                    <a href="https://steamcommunity.com/id/zxgaer/" target="_blank" rel="noopener noreferrer"
-                        aria-label="Steam">
-                        <Icon icon="mdi:steam" class="social-icon" />
+                    <a href="https://www.youtube.com/@Ergxza" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <Icon icon="mdi:youtube" class="social-icon" />
                     </a>
 
                 </div>

@@ -37,7 +37,7 @@ $vp-font-mono: '"JetBrains Mono", monospace';
   margin-top: -8px;
   font-size:
     clamp(1.2rem, 5vw, 2rem);
-  line-height: 1.15;
+  line-height: 1.35;
   letter-spacing: .02em;
   background:
     linear-gradient(
@@ -92,10 +92,10 @@ $vp-font-mono: '"JetBrains Mono", monospace';
 .blog-page-wrapper {
   position: relative;
 
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 
-  background: rgba(15, 15, 20, 0.65);
+  background: rgba(15, 15, 20, 0.35);
 }
 
 .vp-blog-hero {

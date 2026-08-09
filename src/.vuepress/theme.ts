@@ -7,15 +7,15 @@ export default hopeTheme({
         name: "Zxgaer",
         url: "https://neliko.top",
     },
-    logo: "l2.png",
+    logo: "https://zxgaer-blog.cn-nb1.rains3.com/l2.png",
     docsDir: "src",
-    favicon: "favicon.png",
+    favicon: "https://zxgaer-blog.cn-nb1.rains3.com/l3.png",
     navbar,
     sidebar,
     footer: "Everyone is lovely.",
     displayFooter: true,
     blog: {
-        avatar:"logo.png",
+        avatar:"https://zxgaer-blog.cn-nb1.rains3.com/logo.png",
         description:"Stay hungry, stay foolish.",
         intro: "/Introduce.html"
     },
